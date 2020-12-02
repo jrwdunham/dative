@@ -2,13 +2,15 @@ language: node_js
 
 node_js:
   - 8.9.1
+  - 10
+  - 12
 
 before_install:
   - export TZ=Canada/Eastern
   - npm install -g grunt-cli
 
 install:
-  - yarn
+  - yarn install
 
 script: grunt deploy
 

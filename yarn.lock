@@ -420,7 +420,7 @@ co@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz#6ea6bdf3d853ae54ccb8e47bfa0bf3f9031fb184"
 
-coffee-script@>=1.0.1, coffee-script@>=1.2.0:
+coffee-script@>=1.2.0:
   version "1.12.7"
   resolved "https://registry.yarnpkg.com/coffee-script/-/coffee-script-1.12.7.tgz#c05dae0cb79591d05b3070a8433a98c9a89ccc53"
 
@@ -694,11 +694,12 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-eco@~1.0:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/eco/-/eco-1.0.3.tgz#624eacd09c9795ed65d83da865375dc52464e56d"
+eco@1.1.0-rc-3:
+  version "1.1.0-rc-3"
+  resolved "https://registry.yarnpkg.com/eco/-/eco-1.1.0-rc-3.tgz#742a32c4615af705ab3e9a46b6ce5c16dbc57262"
+  integrity sha1-dCoyxGFa9wWrPppGts5cFtvFcmI=
   dependencies:
-    coffee-script ">=1.0.1"
+    coffee-script ">=1.2.0"
     strscan ">=1.0.1"
 
 entities@0.x:
@@ -1091,11 +1092,12 @@ grunt-docco@^0.3.3:
   dependencies:
     docco "~0.6.3"
 
-grunt-eco@*:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/grunt-eco/-/grunt-eco-0.1.3.tgz#4e6ba86948a1122990a7eae61c57ab961a769ed6"
+grunt-eco@0.2.0-rc.0:
+  version "0.2.0-rc.0"
+  resolved "https://registry.yarnpkg.com/grunt-eco/-/grunt-eco-0.2.0-rc.0.tgz#7037098dc60dc1fd6335c806b779ae08bbdf63e2"
+  integrity sha512-gFTF4fzWtsMthX0Bg9EGRlyGnraTAKBgPbTApgU21RHc5b006uPlKhopvGI6YFxmY4dFC/YeH34hwpMwzBmvzw==
   dependencies:
-    eco "~1.0"
+    eco "1.1.0-rc-3"
 
 grunt-exec@^0.4.6:
   version "0.4.7"

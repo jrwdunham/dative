@@ -53,6 +53,7 @@ echo "... setting version on dative package"
 sed 's/"version": "[^,]*"/"version": "'$SHORT_VERSION'"/' package.json  > output
 mv output package.json
 
+mkdir dist
 cp package.json dist/
 # echo "... setting Continuous Integration version on dative dist"
 # sed "s/\"\(version\": \"[^,]*\)\"/\1.$MINOR_VERSION\"/" dist/package.json  > output
